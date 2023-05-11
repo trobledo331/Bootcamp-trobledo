@@ -5,7 +5,7 @@
 
 body {
     height: 100vh;
-    background-color: rgb(221, 203, 233);
+    background-image:url(Img/juanes-fondo-musica.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,7 +57,25 @@ li:hover{
     justify-content: center;
     text-align: center;
 
-    background-color: white;
+    background-color:rgb(223, 186, 223);
     border-radius: 5px;
     margin: 5px 25px 5px 25px;
 }
+
+.contacto-form {
+    
+    background-color:rgb(223, 179, 223) (143, 91, 91);
+}
+
+.musica-content {
+
+}
+.cancion {
+    width: 250px;
+    height: 150px;
+    display: inline
+    background-color: rgb(17, 16, 16);
+    padding: 10px;
+    margin: 5px;
+}
+
