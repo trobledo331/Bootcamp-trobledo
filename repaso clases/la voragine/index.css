@@ -1,7 +1,7 @@
 * { 
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Dosis', sans-serif;;
 }
 main {
     display:grid;
@@ -9,12 +9,9 @@ main {
     grid-template-rows: 50% 50%;
 }
 p{
-    margin: 10px;
+    margin-top: 10px;
     font-size: 0.8em;
     margin-right: 100px;
-}
-span {
-    margin-left: 30px;
 }
 
 h1{
@@ -23,12 +20,12 @@ h1{
 
 a{
     font: size 0.8em; 
-    color:aqua
-    
+    color:rgba (61, 208, 139, 0.791);
+    text-decoration: none;
 }
 
-.body {
-    height: 100%;
+.tamaño{
+    height: 100vh;
     width: 100%;
 
 }
@@ -37,17 +34,36 @@ a{
     width: 100px;
 }
 
+.imagen-pintura {
+    height: 100px;
+    width: 70px;
+}
+.contenedor-imagen-pintura {
+    display: flex;
+    flex-direction: column;
+}
 #seccion-1 {
     padding-top: 10px;
     padding-left: 10px;
 }
 
+#seccion-3 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
 #subtitulo-seccion-2 {
-    margin-top: 10px;
     margin-bottom: 30px;
 }
 
 #contenedor-imagenes-seccion-2 {
     display: flex;
     justify-content: space-around;
+}
+
+#contenedor-imagenes-seccion-4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+#nombre-autor {
+    margin-left: 30px;
 }
