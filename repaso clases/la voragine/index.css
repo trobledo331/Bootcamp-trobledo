@@ -24,7 +24,7 @@ a{
     text-decoration: none;
 }
 
-.tamaño{
+.tamano{
     height: 100vh;
     width: 100%;
 
@@ -42,15 +42,12 @@ a{
     display: flex;
     flex-direction: column;
 }
-#seccion-1 {
+
+#seccion {
     padding-top: 10px;
     padding-left: 10px;
 }
 
-#seccion-3 {
-    padding-top: 10px;
-    padding-left: 10px;
-}
 #subtitulo-seccion-2 {
     margin-bottom: 30px;
 }
