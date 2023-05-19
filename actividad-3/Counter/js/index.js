@@ -1,22 +1,26 @@
 
-let contador = 0;
-
 const valor = document.getElementById('valor'); 
 const btnIncrementar = document.getElementById('incrementar');
 const btnDecrementar = document.getElementById('decrementar');
 const btnResetear = document.getElementById('resetear');
 
-btnIncrementar.onclick = function(){
-    contador++;
-    valor.innerHTML = contador; 
-}
+btnIncrementar.addEventListener('click', () => {
+    console.log(valor.innerHTML)
+    let contador = valor.innerHTML;
+    contador ++;
+    valor.innerText = contador;
+    
+})
 
-btnDecrementar.onclick = function(){ 
-    contador--;
-    valor.innerHTML = contador;
-}
+btnDecrementar.addEventListener('click', () => {
+    console.log('hola' +valor.innerHTML)
+    let contador = valor.innerHTML;
+    contador --;
+    valor.innerText = contador; 
+})
 
-btnResetear.onclick = function(){
-    contador = 0;
-    valor.innerHTML = contador;
-}
+btnResetear.addEventListener('click', () => {
+    console.log('valor' +valor.innerHTML)
+    valor.innerText = 0;
+})
+
